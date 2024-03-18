@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: managed-volume-claim
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: managed-premium-retain-class
+  resources:
+    requests:
+      storage: 5Gi
+

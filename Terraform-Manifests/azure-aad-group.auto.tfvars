@@ -1,0 +1,1 @@
+azuread_name_suffix = "cluster-administrators"
